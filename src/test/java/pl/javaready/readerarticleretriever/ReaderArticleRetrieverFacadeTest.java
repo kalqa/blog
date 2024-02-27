@@ -17,7 +17,6 @@ class ReaderArticleRetrieverFacadeTest {
         assert articleDto.content().equals("5 kroków: 1, 2 , 3, ,4");
         assert articleDto.header().equals("jak zostac programistą");
         assert articleDto.category().equals("IT");
-
     }
 
 }
